@@ -1,0 +1,13 @@
+========================================================
+PREDICCIÓN — Final Mundial 2026: España vs Argentina
+========================================================
+mu (xG medio del torneo) : 1.4343
+lambda España            : 0.765
+lambda Argentina         : 0.372
+total esperado           : 1.14 goles
+
+90 minutos  -> ESP 41.7% | X 41.9% | ARG 16.5%
+Campeón     -> ESP 64.9% | ARG 35.1%
+
+Bootstrap P(España campeón): mediana 63.7%  IC95% [35.6%, 89.1%]
+España favorita en 83.2% de las réplicas

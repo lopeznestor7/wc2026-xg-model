@@ -1,0 +1,8 @@
+# Extracción de datos
+ScraperFC==4.5.0
+beautifulsoup4>=4.12
+
+# Análisis y modelo
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
