@@ -46,6 +46,14 @@ La ventaja de España no viene de que Argentina tuviera suerte neta, sino de que
 España **genera casi el mismo xG** (1.92 vs 1.92 por 90 min) pese a marcar menos,
 y **concede mucho menos** (0.305 vs 0.512 por 90 min).
 
+> **Nota sobre la normalización.** El xG se mide *por 90 minutos jugados*, no por
+> partido. Argentina disputó dos prórrogas (vs. Cabo Verde y Suiza), de modo que
+> jugó el equivalente a **7.70** partidos de 90 minutos, no 7. Por eso su xG por
+> 90 es 14.79 / 7.70 = **1.92**, y no 14.79 / 7 = 2.11: dividir entre partidos le
+> daría crédito extra por los 60 minutos adicionales. España, sin prórrogas, jugó
+> 7.00 exactos (13.47 / 7.00 = 1.92). Normalizados por tiempo real en cancha,
+> ambos ataques generan el mismo peligro.
+
 ## Trayectorias en el torneo
 
 | Fase | Rival de España | Rival de Argentina |
