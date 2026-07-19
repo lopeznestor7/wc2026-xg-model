@@ -154,12 +154,6 @@ torneo y `tᵢⱼ` la exposición del partido (1.0 en tiempo reglamentario, 4/3 
 prórroga). No hay término de localía (torneo en sede neutral) ni paso de
 conversión (el xG ya es el gol esperado).
 
-**Suficiencia:** al ser un modelo log-lineal de Poisson, los estadísticos
-suficientes son los totales marginales de xG. Por eso el ajuste por rival no
-requiere el xG partido a partido, solo el agregado por selección más el diseño
-del torneo. La estimación se hace por máxima verosimilitud (L-BFGS-B) con una
-aserción que verifica que los marginales ajustados reproducen los observados.
-
 Detalle completo en `informe_xg.pdf`. (solicitarlo al correo lopez.nestor@pucp.edu.pe)
 
 ## Datos y limitaciones
