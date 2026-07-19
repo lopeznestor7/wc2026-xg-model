@@ -160,7 +160,7 @@ requiere el xG partido a partido, solo el agregado por selección más el diseñ
 del torneo. La estimación se hace por máxima verosimilitud (L-BFGS-B) con una
 aserción que verifica que los marginales ajustados reproducen los observados.
 
-Detalle completo en `docs/informe_xg.pdf`.
+Detalle completo en `informe_xg.pdf`. (solicitarlo al correo lopez.nestor@pucp.edu.pe)
 
 ## Datos y limitaciones
 
