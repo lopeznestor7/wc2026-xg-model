@@ -113,6 +113,7 @@ consecuencia directa de enfrentar a las dos mejores defensas del torneo.
 │   ├── fase2_tabla_maestra.py           # Une fuentes + validaciones de consistencia
 │   └── fase3_modelo_xg.py               # MLE ajustado por rival + predicción
 ├── data/                                # CSVs de datos (versionados)
+│   └── DICCIONARIO.md                   # Descripción de cada archivo y columna
 ├── outputs/                             # Predicción y matriz de marcadores
 ├── docs/                                # Informe LaTeX y PDF
 ├── requirements.txt
