@@ -18,16 +18,8 @@ Modelo:
 
 Suficiencia:
     En forma log-lineal, los estadísticos suficientes son los totales marginales
-    (xG total a favor y en contra de cada selección). Por tanto el ajuste por
-    rival NO requiere el xG partido a partido: basta el agregado por selección
-    más el diseño del torneo (quién jugó contra quién). Ref: Birch (1963).
+    (xG total a favor y en contra de cada selección). Ref: Birch (1963).
 
-Validación obligatoria:
-    En el MLE, los marginales ajustados deben reproducir los observados a
-    precisión de máquina. Se comprueba con una aserción: si falla, el optimizador
-    no alcanzó el óptimo y las estimaciones no son fiables. (Un ajuste iterativo
-    previo declaró convergencia mientras los marginales diferían en 8.3 unidades;
-    esta comprobación lo habría detectado.)
 
 Salida:
     data/fuerzas_xg.csv           (alpha, delta de las 48 selecciones)
