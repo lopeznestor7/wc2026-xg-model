@@ -22,11 +22,78 @@ Bootstrap: IC 95 % [35.6 %, 89.1 %]. Marcador más probable: **0–0** (32.1 %).
 
 ## Hallazgo principal
 
-El relato dominante ("mejor ataque contra mejor defensa") **describe el pasado
-pero no lo predice**. Por xG, ambos finalistas generan peligro de forma casi
+Por xG, ambos finalistas generan peligro de forma casi
 idéntica (~1.92 xG por 90 min); la diferencia entre 18 y 12 goles es **varianza
 de finalización**, no calidad de las ocasiones. La ventaja de España es
 **defensiva**: concede el menor xG por 90 minutos de todo el torneo.
+
+## Goles frente a xG: la varianza de finalización
+
+| | | Goles | xG | Diferencia |
+|---|---|---|---|---|
+| **Ataque** | Argentina | 18 | 14.79 | +3.21 |
+| | España | 12 | 13.47 | −1.47 |
+| **Defensa** | Argentina | 7 | 3.94 | −3.06 |
+| | España | 1 | 2.13 | +1.13 |
+
+*Recuento de goles de FBref (con penales de juego), xG de Sofascore, tras 7 partidos.*
+
+Argentina marcó 3.21 goles **por encima** de su xG (fortuna ofensiva) pero
+recibió 3.06 **por encima** del xG que concedió (infortunio defensivo): las dos
+desviaciones actúan en sentidos opuestos y **prácticamente se cancelan** (saldo
+neto ≈ +0.15). Sus registros reflejan, por tanto, bastante bien su nivel real.
+La ventaja de España no viene de que Argentina tuviera suerte neta, sino de que
+España **genera casi el mismo xG** (1.92 vs 1.92 por 90 min) pese a marcar menos,
+y **concede mucho menos** (0.305 vs 0.512 por 90 min).
+
+## Trayectorias en el torneo
+
+| Fase | Rival de España | Rival de Argentina |
+|---|---|---|
+| Grupos | Cabo Verde (0–0) | Argelia (3–0) |
+| Grupos | Arabia Saudí (4–0) | Austria (2–0) |
+| Grupos | Uruguay (1–0) | Jordania (3–1) |
+| Dieciseisavos | Austria (3–0) | Cabo Verde (3–2, pr.) |
+| Octavos | **Portugal** (1–0) | Egipto (3–2) |
+| Cuartos | **Bélgica** (2–1) | Suiza (3–1, pr.) |
+| Semifinal | **Francia** (2–0) | Inglaterra (2–1) |
+
+El cuadro de España (Uruguay, Portugal, Bélgica, Francia) fue **sustancialmente
+más exigente** que el de Argentina (Argelia, Jordania, Cabo Verde, Egipto,
+Suiza). Por eso el ajuste por rival mejora la fuerza ofensiva de España un
+**+37.7 %** y la de Argentina apenas nada: el modelo cuantifica esta asimetría
+sin recurrir a la reputación de los nombres.
+
+## Matriz de marcadores (90 minutos, %)
+
+Filas: goles de España · Columnas: goles de Argentina · La diagonal son los empates.
+
+| ESP \ ARG | 0 | 1 | 2 | 3 |
+|---|---|---|---|---|
+| **0** | **32.07** | 11.93 | 2.22 | 0.28 |
+| **1** | 24.54 | 9.13 | 1.70 | 0.21 |
+| **2** | 9.39 | 3.49 | 0.65 | 0.08 |
+| **3** | 2.40 | 0.89 | 0.17 | 0.02 |
+
+El marcador más probable es el **empate sin goles (32.1 %)**, seguido de España
+1–0 (24.5 %). Con medias tan bajas, la masa de probabilidad se concentra en los
+marcadores mínimos, muchos de ellos igualados: de ahí que el empate en 90
+minutos (41.9 %) sea tan probable como la victoria de España.
+
+## Probabilidades derivadas
+
+| Suceso | Probabilidad |
+|---|---|
+| Menos de 2.5 goles | 89.3 % |
+| Más de 2.5 goles | 10.7 % |
+| Ambos equipos marcan | 16.6 % |
+| España mantiene la portería a cero | 68.9 % |
+| Argentina mantiene la portería a cero | 46.5 % |
+| El partido llega a la prórroga | 41.9 % |
+
+Una final **cerrada y de pocos goles**: el modelo asigna un 89 % a que se marquen
+menos de tres goles y un 42 % a que haya que resolver en la prórroga. Es la
+consecuencia directa de enfrentar a las dos mejores defensas del torneo.
 
 ## Estructura del repositorio
 
